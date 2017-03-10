@@ -1,5 +1,6 @@
 'use strict';
 angular.module('confusionApp', []).controller('MenuController', ['$scope', function($scope) {
+  
   $scope.tab = 1;
   $scope.filtText = '';
   $scope.showDetails = false;
@@ -46,7 +47,6 @@ angular.module('confusionApp', []).controller('MenuController', ['$scope', funct
     }
   ]; 
   
-  $scope.dishes = dishes;
 
   $scope.select = function(setTab) {
     $scope.tab = setTab;
@@ -72,4 +72,5 @@ angular.module('confusionApp', []).controller('MenuController', ['$scope', funct
   $scope.toggleDetails = function() {
     $scope.showDetails = !$scope.showDetails;
   };
-}]);
+}])
+;

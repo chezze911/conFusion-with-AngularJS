@@ -25,16 +25,17 @@
     <div class="container">
         <div class="row row-content" ng-controller="MenuController">
             <div class="col-xs-12">
+
                 <button ng-click="toggleDetails()" class="btn btn-xs btn-primary pull-right" type="button">
-                {{showDetails ? 'Hide Details':'Show Details'}}
-              </button>
+  {{showDetails ? 'Hide Details':'Show Details'}}
+</button>  
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation"
                      ng-class="{active:isSelected(1)}">
                     <a ng-click="select(1)"
                      aria-controls="all menu"
-                     role="tab">The Menu</a></li>
+                     role="tab">TheMenu</a></li>
                     <li role="presentation"
                      ng-class="{active:isSelected(2)}">
                     <a ng-click="select(2)"
@@ -74,10 +75,7 @@
 
     </div>
 
-<!-- build:js scripts/main.js -->
-    <script src="../bower_components/angular/angular.min.js"></script>
-    <script src="scripts/app.js"></script>
-<!-- endbuild -->
+<script src="scripts/main-90758d78d7.js"></script>
 
 </body>
 

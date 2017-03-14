@@ -74,6 +74,7 @@ gulp.task('browser-sync', ['default'], function () {
       'app/images/**/*.png',
       'app/scripts/**/*.js',
       'dist/**/*'
+
    ];
 
    browserSync.init(files, {
